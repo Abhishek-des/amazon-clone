@@ -12,7 +12,7 @@ function Product({id, title, price, description, category, image}) {
     );
 
     const [hasPrime] = useState(Math.random() < 0.5)
-        console.log('Abhishek Sharma')
+        
 
     return (
         <div className="relative flex flex-col m-5 bg-white z-30 p-10">
